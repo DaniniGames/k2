@@ -14,4 +14,3 @@ while intentos > 0:
         intentos -= 1
         print ("Te quedan {} intentos.".format(intentos))
 
-
