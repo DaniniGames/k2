@@ -33,7 +33,6 @@ while vida_pikachu > 0 and vida_enemigo > 0:
     vida_pikachu -= ataque
     print("{} te ha quitado  de vida.".format(nombre_poke, ataque))
 
-
     print("Tu vida es de {}.".format(vida_pikachu))
 
 if vida_enemigo <= 0:
