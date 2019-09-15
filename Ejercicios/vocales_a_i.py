@@ -1,5 +1,5 @@
 frase_a_cambiar = input("Introduce la frase a modificar: ").lower()
-vocales = ["a", "e", "o", "u" ]
+vocales = ["a", "e", "o", "u"]
 tildes = ["á", "é", "ó", "ú"]
 
 for i in frase_a_cambiar:
