@@ -1,4 +1,4 @@
-frase_a_cambiar = input("Mc ").lower()
+frase_a_cambiar = input("Introduce la frase a modificar: ").lower()
 vocales = ["a", "e", "i", "o", "u"]
 
 for i in frase_a_cambiar:
