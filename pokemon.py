@@ -20,7 +20,7 @@ elif elegir_poke == "Bulbasaur":
     nombre_poke = "Bulbasaur"
     ataque = 10
 
-while vida_pikachu > 0 and vida_enemigo > 0:
+while vida_pikachu >= 0 and vida_enemigo >= 0:
     elegir_ataque = input("Usar chispazo o bola voltio?")
 
     if elegir_ataque == "Chispazo":
