@@ -20,7 +20,7 @@ for i in lista:
     if i % 7 == 0:
         multiplos_siete.append(i)
 
-print("Múltiplos de 2: {} ".format(multiplos_dos))
+print("Múltiplos de 2: {}".format(multiplos_dos))
 print("Múltiplos de 3: {}".format(multiplos_tres))
 print("Múltiplos de 5: {}".format(multiplos_cinco))
 print("Múltiplos de 7: {}".format(multiplos_siete))
