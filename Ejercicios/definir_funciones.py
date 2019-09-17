@@ -34,3 +34,9 @@ def pares(lista):
 
 
 print(pares(lista=[1, 2, 3, 4, 8, 9, 26, 31, 86]))
+
+def texto_a_subrayado(x):
+    for i in x:
+        print("-")
+
+texto_a_subrayado("Peste")
