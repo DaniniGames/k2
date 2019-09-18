@@ -1,6 +1,4 @@
 frase = input("Introduce la frase a analizar: ").lower()
-
-num_vocales = 0
 vocales = ["a", "e", "i", "o", "u"]
 vocales2 = []
 

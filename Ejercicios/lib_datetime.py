@@ -9,10 +9,8 @@ tiempo_restante = user_date - datetime.datetime.now()
 print(tiempo_restante)
 print(user_date.weekday())
 
-año = int(input("Introduce el año: "))
-mes = int(input("Introduce el mes: "))
-dia = int(input("Introduce el día: "))
+born_date = (input("¿Cuál es tu fecha de nacimiento? (dd/mm/yyyy): "))
+born_date = datetime.datetime.strptime(born_date, "%d/%m/%Y")
 
-user_date2 = datetime.datetime(year=año, month=mes, day=dia)
-tiempo_pasado = datetime.datetime.now() - user_date2
-print("Han pasado {} horas.".format(tiempo_pasado.days * 24))
+tiempo_pasado = datetime.datetime.now() - born_date
+print("Has vivido {} horas o {} días.".format(tiempo_pasado.days * 24, tiempo_pasado.days))
